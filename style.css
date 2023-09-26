@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.color-picker {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.color-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-preview {
+    margin-right: 20px;
+}
+
+.color-preview input {
+    width: 100px;
+    height: 100px;
+}
+
+.color-values {
+    text-align: left;
+}
+
+.color-values p {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.color-values strong {
+    font-size: 24px; /* Adjust the size as desired */
+    font-weight: bold;
+}
