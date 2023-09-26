@@ -22,21 +22,13 @@ h1 {
 
 .color-info {
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.color-preview {
-    margin-right: 20px;
-}
-
-.color-preview input {
-    width: 100px;
-    height: 100px;
+    justify-content: center;
 }
 
 .color-values {
     text-align: left;
+    margin-right: 20px;
 }
 
 .color-values p {
@@ -45,6 +37,28 @@ h1 {
 }
 
 .color-values strong {
-    font-size: 24px; /* Adjust the size as desired */
+    font-size: 24px;
     font-weight: bold;
+}
+
+.color-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-display {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+
+.color-display {
+    background-color: #000; /* Default background color */
+}
+
+.color-preview input {
+    width: 100px;
+    height: 30px;
 }
